@@ -1,4 +1,4 @@
 class FutureTrip < ActiveRecord::Base
-  belongs to :profile
-  belongs to :park
+  belongs_to :profile
+  belongs_to :park
 end
