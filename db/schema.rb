@@ -11,18 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151112194356) do
+ActiveRecord::Schema.define(version: 20151112201702) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "future_trips", force: :cascade do |t|
-    t.integer "park_id"
-    t.integer "profile_id"
     t.text    "reason"
     t.date    "date_begin"
     t.date    "date_end"
+    t.integer "profile_id"
+    t.integer "park_id"
   end
+
+  add_index "future_trips", ["park_id"], name: "index_future_trips_on_park_id", using: :btree
+  add_index "future_trips", ["profile_id"], name: "index_future_trips_on_profile_id", using: :btree
 
   create_table "parks", force: :cascade do |t|
     t.string  "name"
@@ -32,21 +35,27 @@ ActiveRecord::Schema.define(version: 20151112194356) do
   end
 
   create_table "past_places", force: :cascade do |t|
-    t.integer "park_id"
-    t.integer "profile_id"
     t.text    "favorite_thing"
     t.text    "improvement"
     t.date    "date_begin"
     t.date    "date_end"
+    t.integer "profile_id"
+    t.integer "park_id"
   end
 
+  add_index "past_places", ["park_id"], name: "index_past_places_on_park_id", using: :btree
+  add_index "past_places", ["profile_id"], name: "index_past_places_on_profile_id", using: :btree
+
   create_table "profiles", force: :cascade do |t|
-    t.string "user_name"
-    t.string "surname"
-    t.string "given_name"
-    t.string "favorite_park"
-    t.string "home_state"
+    t.string  "user_name"
+    t.string  "surname"
+    t.string  "given_name"
+    t.string  "favorite_park"
+    t.string  "home_state"
+    t.integer "user_id"
   end
+
+  add_index "profiles", ["user_id"], name: "index_profiles_on_user_id", using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string   "email",           null: false
@@ -59,4 +68,9 @@ ActiveRecord::Schema.define(version: 20151112194356) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["token"], name: "index_users_on_token", unique: true, using: :btree
 
+  add_foreign_key "future_trips", "parks"
+  add_foreign_key "future_trips", "profiles"
+  add_foreign_key "past_places", "parks"
+  add_foreign_key "past_places", "profiles"
+  add_foreign_key "profiles", "users"
 end
