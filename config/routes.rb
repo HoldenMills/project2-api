@@ -6,5 +6,11 @@ Rails.application.routes.draw do
 
   resources :users, except: [:new, :edit]
 
-  resources :books, except: [:new, :edit]
+  resources :profiles, except: [:new, :edit]
+
+  resources :future_trips
+
+  resources :past_places
+
+  resources :parks
 end

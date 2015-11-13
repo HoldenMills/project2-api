@@ -1,0 +1,408 @@
+name,designation,state,year_authorized
+Acadia,NP,ME,1919
+American Samoa,NP,AS,1988
+Arches,NP,UT,1929
+Badlands,NP,SD,1929
+Big Bend,NP,TX,1935
+Biscayne,NP,FL,1968
+Black Canyon of the Gunnison,NP,CO,1933
+Bryce Canyon,NP,UT,1924
+Canyonlands,NP,UT,1964
+Capitol Reef,NP,UT,1937
+Carlsbad Caverns,NP,NM,1923
+Cuyahoga Valley,NP,OH,1974
+Channel Islands,NP,CA,1938
+Crater Lake,NP,OR,1902
+Congaree,NP,SC,1976
+Death Valley,NP,CA NV,1993
+Denali,PP,AK,1917
+Dry Tortugas,NP,FL,1935
+Everglades,PE,FL,1934
+Gates of the Arctic,PP,AK,1978
+Glacier,NP,MT,1910
+Glacier Bay,PP,AK,1925
+Grand Canyon,NP,AZ,1908
+Grand Teton,NP,WY,1929
+Great Basin,NP,NV,1986
+Great Sand Dunes,PP,CO,1932
+Great Smoky Mountains,NP,NC,1926
+Guadalupe Mountains,NP,TX,1966
+Haleakala,NP,HI,1916
+Hawaii Volcanoes,NP,HI,1916
+Hot Springs,NP,AR,1921
+Isle Royale,NP,MI,1931
+Joshua Tree,NP,CA,1936
+Katmai,PP,AK,1918
+Kenai Fjords,NP,AK,1978
+Kings Canyon,NP,CA,1890
+Kobuk Valley,NP,AK,1978
+Lake Clark,PP,AK,1978
+Lassen Volcanic,NP,CA,1907
+Mammoth Cave,NP,KY,1926
+Mesa Verde,NP,CO,1906
+Mount Rainier,NP,WA,1899
+North Cascades,NP,WA,1968
+Olympic,NP,WA,1909
+Petrified Forest,NP,AZ,1906
+Pinnacles,NP,CA,1908
+Redwood,NP,CA,1968
+Rocky Mountain,NP,CO,1915
+Saguaro,NP,AZ,1933
+Sequoia,NP,CA,1890
+Shenandoah,NP,VA,1926
+Theodore Roosevelt,NP,ND,1947
+Virgin Islands,NP,VI,1956
+Voyageurs,NP,MN,1971
+Wind Cave,NP,SD,1903
+Wrangell St. Elias,PP,AK,1978
+Yellowstone,NP,WY MT ID,1872
+Yosemite,NP,CA,1890
+Zion,NP,UT,1909
+Agate Fossil Beds,MO,NE,1965
+Agua Fria,MO,AZ,2000
+Alibates Flint Quarries,MO,TX,1965
+Aniakchak,MR,AK,1978
+Aztec Ruins,MO,NM,1923
+Bandelier,MO,NM,1916
+Booker T Washington,MO,VA,1956
+Buck Island Reef,MO,VI,1961
+Cabrillo,MO,CA,1913
+California Coastal,MO,CA,2000
+Canyon de Chelly,MO,AZ,1931
+Canyons of the Ancients,MO,CO,2000
+Cape Krusenstern,MO,AK,1978
+Capulin Volcano,MO,NM,1916
+Carrizo Plain,MO,CA,2001
+Casa Grande,MO,AZ,1892
+Cascade Siskiyou,MO,OR,2000
+Castillo de San Marcos,MO,FL,1924
+Castle Clinton,MO,NY,1946
+Cedar Breaks,MO,UT,1933
+Chiricahua,MO,AZ,1924
+Colorado,MO,CO,1911
+Craters of the Moon,MO,ID,1924
+Devils Postpile,MO,CA,1911
+Devils Tower,MO,WY,1906
+Dinosaur,MO,CO UT,1915
+Effigy Mounds,MO,IA,1949
+El Malpais,MO,NM,1987
+El Morro,MO,NM,1906
+Florissant Fossil Beds,MO,CO,1969
+Fort Frederica,MO,GA,1936 
+Fort McHenry,MO,MD,1925
+Fort Matanzas,MO,FL,1924
+Fort Pulaski,MO,GA,1924
+Fort Stanwix,MO,NY,1935
+Fort Sumter,MO,SC,1948
+Fort Union,MO,NM,1954
+Fossil Butte,MO,WY,1972
+George Washington Birthplace,MO,VA,1930
+George Washington Carver,MO,MO,1943
+Giant Sequoia,MO,CA,2000
+Gila Cliff Dwellings,MO,NM,1907
+Governors Island,MO,NY,2003
+Grand Canyon Parashant,MO,AZ,2000
+Grand Portage,MO,MN,1951
+Grand Staircase Escalante,MO,UT,1996
+Hagerman Fossil Beds,MO,ID,1988
+Hanford Reach,MO,WA,2000
+Hohokam Pima,MO,AZ,1972
+Homestead,MO,NE,1936
+Honouliuli,MO,HI,2015
+Hovenweep,MO,CO,1923
+Ironwood Forest,MO,AZ,2000
+Jewel Cave,MO,SD,1908
+John Day Fossil Beds,MO,OR,1974
+Kasha Katuwe Tent Rocks,MO,NM,2001
+Lava Beds,MO,CO,1925
+Little Bighorn Battlefield,MO,MT,1879
+Minidoka Internment,MO,ID,2001
+Montezuma Castle,MO,AZ,1906
+Muir Woods,MO,CA,1908
+Natural Bridges,MO,UT,1908
+Navajo,MO,AZ,1909
+Newberry,MO,OR,1990
+Ocmulgee,MO,GA,1934
+Oregon Caves,MO,OR,1909
+Organ Pipe Cactus,MO,AZ,1937
+Petroglyph,MO,NM,1990
+Pipe Spring,MO,AZ,1923
+Pipestone,MO,MN,1937
+Pompeys Pillar,MO,MT,2001
+Poverty Point,MO,LA,1988
+President Lincoln and Soldiers Home,MO,DC,2000
+Pullman,MO,IL,2015
+Rainbow Bridge,MO,UT,1910
+Russell Cave,MO,AL,1961
+Salinas Pueblo Missions,MO,NM,1909
+Scotts Bluff,MO,NE,1919
+Sonoran Desert,MO,AZ,2001
+Statue of Liberty,MO,NY,1924
+Sunset Crater Volcano,MO,AZ,1930
+Timpanogos Cave,MO,UT,1922
+Tonto,MO,AZ,1907
+Tuzigoot,MO,AZ,1939
+Upper Missouri River Breaks,MO,MT,2001
+US Virgin Islands Coral Reef,MO,VI,2001
+Vermilion Cliffs,MO,AZ,2000
+Walnut Canyon,MO,AZ,1915
+White Sands,MO,NM,1933
+Wupatki,MO,AZ,1924
+Yucca House,MO,CO,1919
+Abraham Lincoln Birthplace,HS,KY,1916
+Adams,HP,MA,1946
+Allegheny Portage Railroad,HS,PA,1964
+Andersonville,HS,GA,1970
+Andrew Johnson,HS,TN,1935
+Appomattox Court House,HP,VA,1930
+Bents Old Fort,HS,CO,1960
+Boston,HP,MA,1974
+Boston African American,HS,MA,1980
+Brown v Board of Education,HS,KS,1992
+Cane River Creole,HP,LA,1994
+Carl Sandburg Home,HS,NC,1968
+Chaco Culture,HP,NM,1907
+Charles Pinckney,HS,SC,1988
+Chesapeake and Ohio Canal,HP,DC MD WV,1938
+Christiansted,HS,VI,1952
+Clara Barton,HS,MD,1974
+Colonial,HP,VA,1930
+Cumberland Gap,HP,KY TN VA,1940
+Dayton Aviation Heritage,HP,OH,1992
+Edgar Allan Poe,HS,PA,1978
+Edison,HS,NJ,1962
+Eisenhower,HS,PA,1969
+Eleanor Roosevelt,HS,NY,1977
+Eugene ONeill,HS,CA,1976
+Fords Theatre,HS,DC,1970
+Fort Bowie,HS,AZ,1964
+Fort Davis,HS,TX,1961
+Fort Laramie,HS,WY,1938
+Fort Larned,HS,KS,1964
+Fort Point,HS,CA,1970
+Fort Raleigh,HS,NC,1941
+Fort Scott,HS,KS,1965
+Fort Smith,HS,AR,1961
+Fort Union Trading Post,HS,ND MT,1966
+Fort Vancouver,HS,WA,1948
+Frederick Douglass,HS,DC,1962
+Frederick Law Olmsted,HS,MA,1979
+Friendship Hill,HS,PA,1978
+George Rogers Clark,HP,IN,1966
+Golden Spike,HS,UT,1957
+Grant Kohrs Ranch,HS,MT,1972
+Hampton,HS,MD,1948
+Harpers Ferry,HP,MD WV,1944
+Harry S Truman,HS,MO,1983
+Herbert Hoover,HS,IA,1965
+Home of Franklin D Roosevelt,HS,NY,1944
+Hopewell Culture,HP,OH,1923
+Hopewell Furnace,HS,PA,1938
+Hubbell Trading Post,HS,AZ,1965
+Independence,HP,PA,1948
+James A Garfield,HS,OH,1980
+Jean Lafitte,HP,LA,1939
+Jimmy Carter,HS,GA,1987
+John Fitzgerald Kennedy,HS,MA,1967
+John Muir,HS,CA,1964
+Kalaupapa,HP,HI,1980
+Kaloko Honokohau,HP,HI,1978
+Keweenaw,HP,MI,1992
+Klondike Gold Rush,HP,AK WA,1976
+Knife River Indian Villages,HS,ND,1974
+Lewis and Clark,HP,OR WA,1958
+Lincoln Home,HS,IL,1971
+Little Rock Central High School,HS,AR,1998
+Longfellow,HS,MA,1972
+Lowell,HP,MA,1978
+Lyndon B Johnson,HP,TX,1969
+Maggie L Walker,HS,VA,1978
+Manzanar,HS,CA,1992
+Marsh Billings,HP,VT,1992
+Martin Luther King Jr,HS,GA,1980
+Martin Van Buren,HS,NY,1974
+Mary McLeod Bethune Council House,HS,DC,1982
+Minute Man,HP,MA,1959
+Morristown,HP,NJ,1933
+Natchez,HP,MS,1988
+New Bedford Whaling,HP,MA,1996
+New Orleans Jazz,HP,LA,1994
+Nez Perce,HP,ID MT OR WA,1965
+Nicodemus,HS,KS,1996
+Ninety Six,HS,SC,1976
+Palo Alto Battlefield,HS,TX,1978
+Pecos,HP,NM,1965
+Pennsylvania Avenue,HS,DC,1965
+Puuhonua O Honaunau,HP,HI,1955
+Puukohola Heiau,HS,HI,1972
+Sagamore Hill,HS,NY,1962
+Saint Croix Island,IS,ME,1949
+Saint Gaudens,HS,NH,1964
+Saint Pauls Church,HS,NY,1943
+Salem Maritime,HS,MA,1938
+Salt River Bay,HP,VI,1992
+San Antonio Missions,HP,TX,1978
+San Francisco Maritime,HP,CA,1988
+San Juan,HS,PR,1949
+San Juan Island,HP,WA,1966
+Saratoga,HP,NY,1938
+Saugus Iron Works,HS,MA,1968
+Sitka,HP,AK,1910
+Springfield Armory,HS,MA,1974
+Steamtown,HS,PA,1986
+Theodore Roosevelt Birthplace,HS,NY,1962
+Theodore Roosevelt Inaugural,HS,NY,1966
+Thomas Stone,HS,MD,1978
+Tumacacori,HP,AZ,1908
+Tuskegee Airmen,HS,AL,1999
+Tuskegee Institute,HS,AL,1974
+Ulysses S Grant,HS,MO,1989
+Valley Forge,HP,PA,1976
+Vanderbilt Mansion,HS,NY,1940
+War in the Pacific,HP,GU,1978
+Washita Battlefield,HS,OK,1848
+Weir Farm,HS,CT,1990
+Whitman Mission,HS,WA,1936
+William Howard Taft,HS,OH,1969
+Womens Rights,HP,NY,1980
+Arkansas Post,MM,AR,1960
+Arlington House The Robert E Lee Memorial,MM,VA,1925
+Chamizal,MM,TX,1966
+Coronado,MM,AZ,1952
+De Soto,MM,FL,1948
+Federal Hall,MM,NY,1939
+Fort Caroline,MM,FL,1950
+Franklin Delano Roosevelt Memorial,MM,DC,1997
+General Grant,MM,NY,1958
+Hamilton Grange,MM,NY,1962
+Jefferson National Expansion Memorial,MM,MO,1935
+Johnstown Flood,MM,PA,1964
+Korean War Veterans Memorial,MM,1986
+Lincoln Boyhood,MM,IN,1962
+Lincoln Memorial,MM,DC,1911
+Lyndon Baines Johnson Memorial Grove on the Potomac,MM,VA,1973
+Mount Rushmore,MM,SD,1925
+Oklahoma City,MM,OK,1997
+Perrys Victory and International Peace Memorial,MM,OH,1936
+Roger Williams,MM,RI,1965
+Thaddeus Kosciuszko,MM,PA,1972
+Thomas Jefferson,MM,DC,1934
+USS Arizona Memorial,MM,HI,1980
+Vietnam Veterans Memorial,MM,DC,1980
+Washington Monument,MM,DC,1848
+Wright Brothers,MM,NC,1927
+Antietam,BF,MD,1890
+Big Hole,BF,MT,1910
+Brices Cross Roads,BS,MS,1929
+Chickamauga and Chattanooga,MP,GA TN,1890
+Cowpens,BF,SC,1929
+Fort Donelson,BF,TN,1928
+Fort Necessity,BF,PA,1931
+Fredericksburg and Spotsylvania County Battlefields Memorial,MP,VA,1927
+Gettysburg,MP,PA,1895
+Guilford Courthouse,MP,NC,1917
+Horseshoe Bend,MP,AL,1956
+Kennesaw Mountain,BP,GA,1917
+Kings Mountain,MP,SC,1931
+Manassas,BP,VA,1940
+Monocacy,BF,MD,1976
+Moores Creek,BF,NC,1926
+Pea Ridge,MP,AR,1956
+Petersburg,BF,VA,1926
+Richmond,BP,VA,1936
+Shiloh,MP,TN,1894
+Stones River,BF,TN,1927
+Tupelo,BF,MS,1929
+Vicksburg,MP,MS,1899
+Wilsons Creek,BF,MO,1960
+Bering Land Bridge,PS,AK,1978
+Big Cypress,PA,FL,1974
+Big Thicket,PS,TX,1974
+City of Rocks,NR,ID,1988
+Ebeys Landing,NR,WA,1978
+Little River Canyon,PS,AL,1992
+Mojave,PS,CA,1994
+Noatak,PS,AK,1978
+Tallgrass Prairie,PS,KS,1996
+Timucan Ecological and Historic Preserve,PS,FL,1988
+Yukon Charley Rivers,PS,AK,1978
+Amistad,RA,TX,1965
+Bighorn Canyon,RA,MO WY,1966
+Boston Harbor Islands,RA,MA,1996
+Chattahoochie River,RA,GA,1978
+Chickasaw,RA,OK,1976
+Curecanti,RA,CO,1965
+Delaware Water Gap,RA,PA,1965
+Gateway,RA,NY NJ,1972
+Gauley River,RA,VA,1988
+Glen Canyon,RA,AZ UT,1958
+Golden Gate,RA,CA,1972
+Lake Chelan,RA,WA,1968
+Lake Mead,RA,AZ NV,1936
+Lake Meredith,RA,TX,1965
+Lake Roosevelt,RA,WA,1946
+Ross Lake,RA,WA,1968
+Santa Monica Mountains,RA,CA,1978
+Whiskeytown Shasta Trinity,RA,CA,1965
+Alagnak,WS,AK,1980
+Big South Fork,RR,TN,1976
+Bluestone,WS,WV,1988
+Buffalo,RI,AR,1972
+Delaware,WS,NJ PA,1978
+Great Egg Harbor,WS,NJ,1992
+Lower St Croix,WS,MN WI,1972
+Mississippi River,RR,MN,1988
+Missouri,WS,SD NE,1978
+New River Gorge,RI,VA,1978
+Niobrara,WS,NE,1991
+Obed,WS,TN,1976
+Ozark,WS,MO,1964
+Rio Grande,WS,TX,1978
+Saint Croix,WS,MN WI,1968
+Upper Delaware,WS,PA NY,1978
+Apostle Islands,LS,WI,1970
+Assateague Island,SS,VA,1965
+Canaveral,SS,FL,1975
+Cape Cod,SS,MA,1961
+Cape Hatteras,SS,NC,1937
+Cape Lookout,SS,NC,1966
+Cumberland Island,SS,GA,1972
+Fire Island,SS,NY,1964
+Gulf Islands,SS,FL MS,1971
+Indiana Dunes,LS,IN,1966
+Padre Island,SS,TX,1962
+Pictured Rocks,LS,MI,1966
+Point Reyes,SS,CA,1962
+Sleeping Bear Dunes,LS,MI,1970
+Appalachian,ST,ME NH VT MA CT NY NJ PA MD WV VA TN NC GA,1968
+Blue Ridge,PW,VA NC,1936
+Catoctin Mountain Park,PO,MD,1936
+Constitution Gardens,PO,DC,1978
+Continental Divide,ST,MT ID WY CO NM,1978
+Fort Washington Park,PO,DC,1930
+George Washington Memorial Parkway,PW,VA DC MD,1930
+Greenbelt,PO,MD,1950
+Ice Age,ST,WI,1980
+Iditarod,HT,AK,1978
+John D Rockefeller, Jr,PW,WY,1972
+Juan Bautista de Anza,HT,CA,1990
+Lewis and Clark,HT,MO NE SD ND MT ID OR,1978
+Mormon Pioneer,HT,IL MO KS CO UT,1978
+Natchez Trace,ST,MS TN,1983
+Natchez Trace,PW,MS AL TN,1938
+National Capital Parks,PO,DC VA MD,1790
+National Mall,PO,DC,1933
+Nez Perce,HT,OR ID MT WY,1986
+North Country,ST,NY ND,1980
+Overmountain Victory,HT,TN VA NC SC,1980
+Pacific Crest,ST,CA OR WA,1968
+Piscataway Park,PO,MD,1961
+Pony Express,HT,MO S CO UT NV CA,1999
+Potomac Heritage,ST,VA DC MD PA,1983
+Prince William Forest Park,PO,VA,1936
+Rock Creek Park,PO,DC,1890
+Santa Fe,HT,MO KS OK CO NM,1987
+Theodore Roosevelt Island,PO,DC VA,1932
+Trail of Tears,HT,NC TN GA AL AR OK,1987
+White House,PO,DC,1933
+Wolf Trap Farm Park for the Performing Arts,PO,VA,1966
