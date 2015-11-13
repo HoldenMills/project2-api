@@ -21,6 +21,8 @@ gem 'bcrypt', '~> 3.1.7'
 # Help with JSON serialization
 gem 'active_model_serializers'
 
+gem 'rails_12factor'
+
 group :development do
   # Use pry over irb for rails console
   gem 'pry-rails'
