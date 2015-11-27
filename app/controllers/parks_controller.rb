@@ -1,7 +1,7 @@
 class ParksController < OpenReadController
   def create
     @park = Park.new(park_params)
-    if @album.save
+    if @park.save
       render json: @park, status: :created, location: park_url
     else
       render json: @park.errors, status: :unprocessable_entity

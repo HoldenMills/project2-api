@@ -20,7 +20,7 @@ def create
 
   def update
     @past_place = Past_place.find(params[:id])
-      if @park.update(past_place_params)
+      if @past_place.update(past_place_params)
         head :no_content
       else
         render json: @past_place.errors, status: :unprocessable_entity
