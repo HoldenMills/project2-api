@@ -9,11 +9,13 @@ class ParksController < OpenReadController
   end
 
   def show
+    layout 'standard'
     @park = Park.find(params[:id])
       render json: @park
   end
 
   def index
+    layout 'standard'
     @parks = Park.all
     render json: @park
   end
