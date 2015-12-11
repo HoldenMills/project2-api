@@ -23,6 +23,8 @@ gem 'active_model_serializers'
 
 gem 'rails_12factor'
 
+gem 'handlebars', '~> 0.7.0'
+
 group :development do
   # Use pry over irb for rails console
   gem 'pry-rails'

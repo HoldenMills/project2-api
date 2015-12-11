@@ -34,4 +34,14 @@ class ParksController < OpenReadController
     @park.destroy
     head :no_content
   end
+
+  def future_trip_params
+    params.require(:park_params).permit(:park_id
+                                        :name,
+                                        :designation,
+                                        :state,
+                                        :year_authorized
+)
+  end
+
 end
