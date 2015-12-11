@@ -1,6 +1,12 @@
+<b>Future Trip</b>
 
-      <%= form_for @park, url: {action: "create"}, html: {class: "park_list"} do |f| %>
-      <%= f.text_field :reason%>
-      <%= f.text_area :body, size: "60x12" %>
-      <%= f.submit "Create" %>
-      <% end %>
+<ul id="future_trip">
+<%= render @future_trip %>
+</ul>
+
+<br>
+  <%= form_for @park, url: {action: "create"}, html: {class: "park_list"} do |f| %>
+  <%= f.text_field :reason%>
+  <%= f.text_area :body, size: "60x12" %>
+  <%= f.submit "Create" %>
+  <% end %>

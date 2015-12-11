@@ -15,9 +15,8 @@ class ParksController < OpenReadController
   end
 
   def index
-    layout 'standard'
     @parks = Park.all
-    render json: @park
+    render json: @parks
   end
 
   def update
@@ -36,7 +35,7 @@ class ParksController < OpenReadController
   end
 
   def future_trip_params
-    params.require(:park_params).permit(:park_id
+    params.require(:park_params).permit(:park_id,
                                         :name,
                                         :designation,
                                         :state,
