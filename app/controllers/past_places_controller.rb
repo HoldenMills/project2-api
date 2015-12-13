@@ -1,7 +1,7 @@
 class PastPlacesController < ApplicationController
 def create
     @past_place = Past_place.new(park_params)
-    if @album.save
+    if @past_place.save
       render json: @past_place, status: :created, location: past_place_url
     else
       render json: @past_place.errors, status: :unprocessable_entity

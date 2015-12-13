@@ -1,16 +1,18 @@
 class FutureTripsController < ApplicationController
 
   def create
-    @future_trip = FutureTrip.new(:future_trip_params)
+    @future_trip = FutureTrip.new(future_trip_params)
 
-    respond_to do |format|
+    # respond_to do |format|
     if @future_trip.save
-      format.html { redirect_to @future_trip, notice: 'Future Trip was successfully created.' }
-      format.js   {}
-      format.json { render json: @future_trip, status: :created, location: @user }
+      # format.html { redirect_to @future_trip, notice: 'Future Trip was successfully created.' }
+      # format.js   {}
+      format.json { render json: @future_trip, status: :created, location: @future_trip
+      }
     else
-      format.html { render action: "new" }
+      # format.html { render action: "new" }
       format.json { render json: @future_trip.errors, status: :unprocessable_entity }
+    end
   end
 
   def show
@@ -40,10 +42,11 @@ class FutureTripsController < ApplicationController
   end
 
   def future_trip_params
-    params.require(:future_trip_params).permit(:park_id,
+    params.require(:park).permit(:park_id,
                                         :profile_id,
                                         :reason,
                                         :date_end,
-                                        :date_begin)
+                                        :date_begin
+    )
   end
 end
