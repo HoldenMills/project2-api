@@ -1,3 +1,5 @@
+profiles controller
+
 class ProfilesController < ApplicationController
   def create
     @profile = Profile.new(profile_params)
@@ -28,4 +30,14 @@ class ProfilesController < ApplicationController
 
     head :no_content
   end
+
+  # def profile_params
+  #   params.require(:username).permit(:username)
+  # end
+
+  def set_profile
+    @profile = Profile.find(params[:id])
+  end
+
+  private :set_profile
 end
