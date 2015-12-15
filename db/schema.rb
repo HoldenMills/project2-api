@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151112201702) do
+ActiveRecord::Schema.define(version: 20151215185015) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,12 +20,10 @@ ActiveRecord::Schema.define(version: 20151112201702) do
     t.text    "reason"
     t.date    "date_begin"
     t.date    "date_end"
-    t.integer "profile_id"
     t.integer "park_id"
   end
 
   add_index "future_trips", ["park_id"], name: "index_future_trips_on_park_id", using: :btree
-  add_index "future_trips", ["profile_id"], name: "index_future_trips_on_profile_id", using: :btree
 
   create_table "parks", force: :cascade do |t|
     t.string  "name"
@@ -69,7 +67,6 @@ ActiveRecord::Schema.define(version: 20151112201702) do
   add_index "users", ["token"], name: "index_users_on_token", unique: true, using: :btree
 
   add_foreign_key "future_trips", "parks"
-  add_foreign_key "future_trips", "profiles"
   add_foreign_key "past_places", "parks"
   add_foreign_key "past_places", "profiles"
   add_foreign_key "profiles", "users"

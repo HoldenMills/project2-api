@@ -41,9 +41,8 @@ class FutureTripsController < ApplicationController
     head :no_content
   end
 
-  def future_trip_params
-    params.require(:park).permit(:park_id,
-                                        :profile_id,
+  params.require(:future_trip).permit(
+                                        :park_id,
                                         :reason,
                                         :date_end,
                                         :date_begin

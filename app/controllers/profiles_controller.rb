@@ -1,5 +1,3 @@
-profiles controller
-
 class ProfilesController < ApplicationController
   def create
     @profile = Profile.new(profile_params)
@@ -13,6 +11,11 @@ class ProfilesController < ApplicationController
   def show
     @profile = Profile.find(params[:id])
     render json: @profile
+  end
+
+  def index
+    @profiles = Profile.all
+    render json: @parks
   end
 
   def update
