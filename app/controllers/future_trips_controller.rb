@@ -1,17 +1,14 @@
 #
 class FutureTripsController < ApplicationController
   def create
-    @future_trip = FutureTrip.new(future_trip)
-
-    respond_to do |format|
-      if @future_trip.save
-        format.html { redirect_to @future_trip, notice: 'Future Trip was successfully created.' }
-        # format.js   {}
-        # render json: @future_trip, status: :created, location: @future_trip
-      else
-        # format.html { render action: "new" }
-        format.json { render json: @future_trip.errors, status: :unprocessable_entity }
-      end
+    @future_trip = FutureTrip.new(future_params)
+    if @future_trip.save
+      # format.html { redirect_to @future_trip, notice: 'Future Trip was successfully created.' }
+      # format.js   {}
+      render json: @future_trip, status: :created, location: @future_trip
+    else
+      # format.html { render action: "new" }
+      render json: @future_trip.errors, status: :unprocessable_entity
     end
   end
 

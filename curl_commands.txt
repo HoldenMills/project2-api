@@ -1,0 +1,26 @@
+# User authentication
+## Register
+
+curl --include --request POST --header "Content-Type: application/json" -d '{ "credentials": { "email": "jon@example.com", "password": "pw" }, "profile": {"username": "red"} }' http://localhost:3000/register
+
+## Login
+
+curl --request POST --header "Content-Type: application/json" -d '{ "credentials": { "email": "jon@example.com", "password": "pw" } }' http://localhost:3000/login
+
+# Login should return a token that all subsequent HTTP Requests will need.
+
+## Logout
+curl --request DELETE --header "Authorization: Token token=..." http://localhost:3000/logout/1
+
+# Help Items
+
+## List
+curl --header "Authorization: Token token=737aae90cb159b296c430f68d4a3eb15" http://localhost:3000/future_trips
+
+# ** OR ** if you dont need to login to see help_items
+
+curl http://localhost:3000/future_trips
+
+## Create
+
+curl --request POST --header "Authorization: Token token=737aae90cb159b296c430f68d4a3eb15" --header "Content-Type: application/json" -d '{ "future_trip": { "park_id":"3", "reason":"Im so lost, help me", "date_end": "2015-12-23", "date_begin": "2015-12-24" } }'  http://localhost:3000/future_trips
