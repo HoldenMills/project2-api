@@ -34,7 +34,6 @@ class FutureTripsController < ApplicationController
   def destroy
     @future_trip = FutureTrip.find(params[:id])
     @future_trip.destroy
-
     head :no_content
   end
 
