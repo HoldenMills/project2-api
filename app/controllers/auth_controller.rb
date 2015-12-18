@@ -20,7 +20,6 @@ class AuthController < ApplicationController
   # POST /register
   def register
     @user = User.new(credentials)
-    @user.build_profile(profile)
     if @user.save
       render json: @user, status: :created, location: @user
     else
@@ -43,10 +42,5 @@ class AuthController < ApplicationController
                                         :password
     )
   end
-
-  def profile
-    params.require(:profile).permit(:user_name)
-  end
-
   private :credentials
 end
