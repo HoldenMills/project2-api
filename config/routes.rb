@@ -11,10 +11,4 @@ Rails.application.routes.draw do
 
   # resources :profiles, except: [:new, :edit]
   resources :profiles
-
-  resources :future_trips
-
-  resources :past_places
-
-  resources :parks
 end
